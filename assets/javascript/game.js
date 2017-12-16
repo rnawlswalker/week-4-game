@@ -64,9 +64,9 @@ $(document).ready(function(){
 			
 			//defines four gem variables that use the secondNumber variable to generate new random number between 1 and 12 for each gem
 				gem1 = getRandomIntInclusive();
-				gem2 = secondNumber;
-				gem3 = secondNumber;
-				gem4 = secondNumber;
+				gem2 = getRandomIntInclusive()
+				gem3 = getRandomIntInclusive()
+				gem4 = getRandomIntInclusive()
 
 				//sets total score to 0 when game resets
 				totalScore = 0;
